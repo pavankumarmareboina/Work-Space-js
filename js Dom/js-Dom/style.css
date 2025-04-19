@@ -1,3 +1,13 @@
 .dom{
     text-align: center;
 }
+table,thead,tr,td,th{
+    border: solid 1px ;
+}
+table{
+    width: 100%;
+    text-align: center;
+    height: 220px;
+    background-color: black;
+    color: white;
+}
