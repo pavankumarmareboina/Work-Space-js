@@ -48,3 +48,72 @@
 // }
 // document.writeln(score)
 
+// function printPrimes(limit) {
+//     for (let num = 2; num <= limit; num++) {
+//       if (isPrime(num)) {
+//         console.log(num);
+//       }
+//     }
+//   }
+  
+//   function isPrime(n) {
+//     if (n < 2) return false;
+//     for (let i = 2; i <= Math.sqrt(n); i++) {
+//       if (n % i === 0) return false;
+//     }
+//     return true;
+//   }
+  
+//   // Example:
+//   printPrimes(800);
+  
+
+// let fNmaes = ['apple','bannana','mango','pappaya','orange',]
+// console.log(fNmaes)
+
+// let mixe = ['pavan','pollard','pooran','hetmiyar','joshoph','russel','bratwet']
+// let all = mixe.concat(fNmaes)
+// console.log(all) 
+ 
+
+
+// let fNmaes = ['apple','bannana','mango','pappaya','orange',]
+// let addNmes = 'A grade'
+// let add = []
+
+// for (i=0; i<fNmaes.length; i++){
+//     let adding = ` ${addNmes} ${fNmaes[i]}`
+//     add.push(adding)
+// }
+// console.log(add)
+
+
+// let func = ()=>{
+//     let num = [1,2,3,4,5,6,7,8,9]
+// let num2 = 'e number'
+// let adds = []
+// for (i=0; i<num.length; i++){
+//     let chnage = `${num2} ${num}`
+//     adds.push(chnage)
+// }
+// console.log(adds)
+// }
+// func()
+
+
+let houseExp = [100,23,123,44,56,121,79]
+let food = [122,32,45,223,45,4]
+
+let expenses = (arr)=>{
+    let total = 0
+    for (i= 0; i<arr.length; i++){
+        total += arr[i]
+    }
+    return total
+}
+ let hx = expenses(houseExp)
+ let fexp = expenses(food)
+ console.log({
+    houseExp : hx,
+    food : fexp
+ })
