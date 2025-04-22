@@ -101,19 +101,64 @@
 // func()
 
 
-let houseExp = [100,23,123,44,56,121,79]
-let food = [122,32,45,223,45,4]
+// let houseExp = [100,23,123,44,56,121,79]
+// let food = [122,32,45,223,45,4]
 
-let expenses = (arr)=>{
-    let total = 0
-    for (i= 0; i<arr.length; i++){
-        total += arr[i]
-    }
-    return total
+// let expenses = (arr)=>{
+//     let total = 0
+//     for (i= 0; i<arr.length; i++){
+//         total += arr[i]
+//     }
+//     return total
+// }
+//  let hx = expenses(houseExp)
+//  let fexp = expenses(food)
+//  console.log({
+//     houseExp : hx,
+//     food : fexp
+//  })
+
+// let normal = (val)=>{
+//   for (i=0; i<=10; i++){
+//     console.log(i)
+//   }
+//   val(i)
+// }
+// let callback = ()=>{
+//     console.log('im callback function')
+// }
+// normal(callback)
+
+
+
+
+// let btnb = document.querySelector('.btn')
+// let message = document.querySelector('.replace')
+// btnb.addEventListener('click',()=>{
+//    btnb.innerText = 'hello'
+//   btnb=message
+// })
+
+let button = document.querySelector('.btn')
+let mess = document.querySelector('.replace')
+button.addEventListener('click',()=>{
+   let come = mess.innerHTML= 'click event'
+   button.come
+})
+
+
+
+
+ let validform = ()=>{
+  let password =document.querySelector('.password').value
+  let confirm = document.querySelector('#btn').value
+  if (password === ''){
+   alert('dcfvgbv')
+   return false
+  }
+  if(confirm === password){
+   alert('sdfg')
+   return false
+  }
+  
 }
- let hx = expenses(houseExp)
- let fexp = expenses(food)
- console.log({
-    houseExp : hx,
-    food : fexp
- })
